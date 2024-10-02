@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 10px;
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+#loginForm {
+  width: 100%;
+  max-width: 435px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 41px 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+form .inputbox label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+form .input_box input:focus {
+  border-color: #f8f8fb;
+}
+
+form .inputbox input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #dadaf2;
+  border-radius: 5px;
+  outline: none;
+  background: #f8f8fb;
+  font-size: 17px;
+  padding: 0px 20px;
+  margin-bottom: 25px;
+}
+
+.error-message {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.eye-icon {
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #919191;
+  cursor: pointer;
+  padding: 3px;
+}
+.pass-title {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.inputbox {
+  position: relative;
+  padding: 10px 0px 10px 0px;
+}
+
+form button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background: #000000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 15px;
+}
